@@ -14,7 +14,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/corousel.css">
+    <link rel="stylesheet" href="<?= base_url('assets') ?>/css/corousel.css">
 </head>
 
 <body>
@@ -24,7 +24,7 @@
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light bg-primary text-light">
                 <a class="navbar-brand" href="#">
-                    <img src="src/img/logo.jpeg" width="30" height="30" alt="">
+                    <img src="<?= base_url('assets') ?>/img/logo.jpeg" width="30" height="30" alt="">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -43,32 +43,6 @@
         </div>
     </div>
     <!-- End Navbar -->
-    <!-- <header>
-        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark ">
-            <a class="navbar-brand" href="#">Carousel</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
-                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" href="#">Disabled</a>
-                    </li>
-                </ul>
-                <form class="form-inline mt-2 mt-md-0">
-                    <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form>
-            </div>
-        </nav>
-    </header> -->
 
     <main role="main">
 
@@ -80,7 +54,7 @@
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="first-slide img-fluid" src="src/img/bg-bunga-32.jpg" alt="First slide" style="object-fit:cover;">
+                    <img class="first-slide img-fluid" src="<?= base_url('assets') ?>/img/bg-bunga-32.jpg" alt="First slide" style="object-fit:cover;">
                     <div class="container">
                         <div class="carousel-caption text-left">
                             <h1>Example headline.</h1>
@@ -91,7 +65,7 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="second-slide" <img class="first-slide img-fluid" src="src/img/bg-bunga-4.jpg" alt="First slide" style="object-fit:cover;">
+                    <img class="second-slide" <img class="first-slide img-fluid" src="<?= base_url('assets') ?>/img/bg-bunga-4.jpg" alt="First slide" style="object-fit:cover;">
                     alt=" Second slide">
                     <div class="container">
                         <div class="carousel-caption text-left">
@@ -103,7 +77,7 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="third-slide" <img class="second-slide" <img class="first-slide img-fluid" src="src/img/bg-header.jpg" alt="First slide" style="object-fit:cover;">
+                    <img class="third-slide" <img class="second-slide" <img class="first-slide img-fluid" src="<?= base_url('assets') ?>/img/bg-header.jpg" alt="First slide" style="object-fit:cover;">
                     <div class="container">
                         <div class="carousel-caption text-left">
                             <h1>One more for good measure.</h1>
@@ -135,19 +109,19 @@
             <h1 class="pb-2">Mawar</h1>
             <div class="row">
                 <div class="col-lg-4">
-                    <img class="rounded-circle" src="src/img/bunga.jpg" alt="Generic placeholder image" width="140" height="140">
+                    <img class="rounded-circle" src="<?= base_url('assets') ?>/img/bunga.jpg" alt="Generic placeholder image" width="140" height="140">
                     <h2>Bunga Mawar</h2>
                     <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p>
                     <p><a class="btn btn-secondary" href="#" role="button">Order &raquo;</a></p>
                 </div><!-- /.col-lg-4 -->
                 <div class="col-lg-4">
-                    <img class="rounded-circle" src="src/img/bunga-1.jpg" alt="Generic placeholder image" width="140" height="140">
+                    <img class="rounded-circle" src="<?= base_url('assets') ?>/img/bunga-1.jpg" alt="Generic placeholder image" width="140" height="140">
                     <h2>Bunga Mawar</h2>
                     <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p>
                     <p><a class="btn btn-secondary" href="#" role="button">Order &raquo;</a></p>
                 </div><!-- /.col-lg-4 -->
                 <div class="col-lg-4">
-                    <img class="rounded-circle" src="src/img/bunga-2.jpg" alt="Generic placeholder image" width="140" height="140">
+                    <img class="rounded-circle" src="<?= base_url('assets') ?>/img/bunga-2.jpg" alt="Generic placeholder image" width="140" height="140">
                     <h2>Bunga Mawar</h2>
                     <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p>
                     <p><a class="btn btn-secondary" href="#" role="button">Order &raquo;</a></p>
@@ -155,19 +129,19 @@
             </div><!-- /.row -->
             <div class="row">
                 <div class="col-lg-4">
-                    <img class="rounded-circle" src="src/img/bunga.jpg" alt="Generic placeholder image" width="140" height="140">
+                    <img class="rounded-circle" src="<?= base_url('assets') ?>/img/bunga.jpg" alt="Generic placeholder image" width="140" height="140">
                     <h2>Bunga Mawar</h2>
                     <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p>
                     <p><a class="btn btn-secondary" href="#" role="button">Order &raquo;</a></p>
                 </div><!-- /.col-lg-4 -->
                 <div class="col-lg-4">
-                    <img class="rounded-circle" src="src/img/bunga-1.jpg" alt="Generic placeholder image" width="140" height="140">
+                    <img class="rounded-circle" src="<?= base_url('assets') ?>/img/bunga-1.jpg" alt="Generic placeholder image" width="140" height="140">
                     <h2>Bunga Mawar</h2>
                     <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p>
                     <p><a class="btn btn-secondary" href="#" role="button">Order &raquo;</a></p>
                 </div><!-- /.col-lg-4 -->
                 <div class="col-lg-4">
-                    <img class="rounded-circle" src="src/img/bunga-2.jpg" alt="Generic placeholder image" width="140" height="140">
+                    <img class="rounded-circle" src="<?= base_url('assets') ?>/img/bunga-2.jpg" alt="Generic placeholder image" width="140" height="140">
                     <h2>Bunga Mawar</h2>
                     <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p>
                     <p><a class="btn btn-secondary" href="#" role="button">Order &raquo;</a></p>
@@ -177,19 +151,19 @@
             <h1 class="pb-2">Aster</h1>
             <div class="row">
                 <div class="col-lg-4">
-                    <img class="rounded-circle" src="src/img/bunga.jpg" alt="Generic placeholder image" width="140" height="140">
+                    <img class="rounded-circle" src="<?= base_url('assets') ?>/img/bunga.jpg" alt="Generic placeholder image" width="140" height="140">
                     <h2>Bunga Mawar</h2>
                     <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p>
                     <p><a class="btn btn-secondary" href="#" role="button">Order &raquo;</a></p>
                 </div><!-- /.col-lg-4 -->
                 <div class="col-lg-4">
-                    <img class="rounded-circle" src="src/img/bunga-1.jpg" alt="Generic placeholder image" width="140" height="140">
+                    <img class="rounded-circle" src="<?= base_url('assets') ?>/img/bunga-1.jpg" alt="Generic placeholder image" width="140" height="140">
                     <h2>Bunga Mawar</h2>
                     <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p>
                     <p><a class="btn btn-secondary" href="#" role="button">Order &raquo;</a></p>
                 </div><!-- /.col-lg-4 -->
                 <div class="col-lg-4">
-                    <img class="rounded-circle" src="src/img/bunga-2.jpg" alt="Generic placeholder image" width="140" height="140">
+                    <img class="rounded-circle" src="<?= base_url('assets') ?>/img/bunga-2.jpg" alt="Generic placeholder image" width="140" height="140">
                     <h2>Bunga Mawar</h2>
                     <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p>
                     <p><a class="btn btn-secondary" href="#" role="button">Order &raquo;</a></p>
@@ -197,19 +171,19 @@
             </div><!-- /.row -->
             <div class="row">
                 <div class="col-lg-4">
-                    <img class="rounded-circle" src="src/img/bunga.jpg" alt="Generic placeholder image" width="140" height="140">
+                    <img class="rounded-circle" src="<?= base_url('assets') ?>/img/bunga.jpg" alt="Generic placeholder image" width="140" height="140">
                     <h2>Bunga Mawar</h2>
                     <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p>
                     <p><a class="btn btn-secondary" href="#" role="button">Order &raquo;</a></p>
                 </div><!-- /.col-lg-4 -->
                 <div class="col-lg-4">
-                    <img class="rounded-circle" src="src/img/bunga-1.jpg" alt="Generic placeholder image" width="140" height="140">
+                    <img class="rounded-circle" src="<?= base_url('assets') ?>/img/bunga-1.jpg" alt="Generic placeholder image" width="140" height="140">
                     <h2>Bunga Mawar</h2>
                     <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p>
                     <p><a class="btn btn-secondary" href="#" role="button">Order &raquo;</a></p>
                 </div><!-- /.col-lg-4 -->
                 <div class="col-lg-4">
-                    <img class="rounded-circle" src="src/img/bunga-2.jpg" alt="Generic placeholder image" width="140" height="140">
+                    <img class="rounded-circle" src="<?= base_url('assets') ?>/img/bunga-2.jpg" alt="Generic placeholder image" width="140" height="140">
                     <h2>Bunga Mawar</h2>
                     <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p>
                     <p><a class="btn btn-secondary" href="#" role="button">Order &raquo;</a></p>
@@ -230,7 +204,7 @@
                         tellus ac cursus commodo.</p>
                 </div>
                 <div class="col-md-5">
-                    <img class="featurette-image img-fluid mx-auto" src="src/img/bg-bunga-1.jpg" alt="Generic placeholder image">
+                    <img class="featurette-image img-fluid mx-auto" src="<?= base_url('assets') ?>/img/bg-bunga-1.jpg" alt="Generic placeholder image">
                     <!-- <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto"
                         alt="Generic placeholder image"> -->
                 </div>
@@ -247,7 +221,7 @@
                         tellus ac cursus commodo.</p>
                 </div>
                 <div class="col-md-5 order-md-1">
-                    <img class="featurette-image img-fluid mx-auto" src="src/img/bunga-1.jpg" alt="Generic placeholder image">
+                    <img class="featurette-image img-fluid mx-auto" src="<?= base_url('assets') ?>/img/bunga-1.jpg" alt="Generic placeholder image">
                 </div>
             </div>
 
@@ -261,7 +235,7 @@
                         tellus ac cursus commodo.</p>
                 </div>
                 <div class="col-md-5">
-                    <img class="featurette-image img-fluid mx-auto" src="src/img/bunga-1.jpg" alt="Generic placeholder image">
+                    <img class="featurette-image img-fluid mx-auto" src="<?= base_url('assets') ?>/img/bunga-1.jpg" alt="Generic placeholder image">
                 </div>
             </div>
 
