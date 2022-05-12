@@ -69,7 +69,7 @@
           </li>
           <div class="user-panel d-flex">
                <div class="image d-flex align-items-center">
-                    <img src="assets/admin/dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
+                    <img src="<?= base_url('') ?>assets/admin/dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
                </div>
                <div class="info justify-content-center align-item-center">
                     <p href="#" class="text-muted m-0">Alexander Pierce</p>

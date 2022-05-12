@@ -28,7 +28,7 @@
                               </a>
                          </li>
                          <li class="nav-item">
-                              <a href="./index2.html" class="nav-link px-1">
+                              <a href="<?= base_url('') . 'admin/tambah-product' ?>" class="nav-link px-1">
                                    <i class="fa fa-plus nav-icon"></i>
                                    <p>Tambah Product</p>
                               </a>

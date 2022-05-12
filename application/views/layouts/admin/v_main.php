@@ -9,7 +9,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 <head>
      <meta charset="utf-8">
      <meta name="viewport" content="width=device-width, initial-scale=1">
-     <title>AdminLTE 3 | Dashboard</title>
+     <title>ADMIN | Dashboard</title>
 
      <?php $this->load->view('includes/v_styles') ?>
 </head>
@@ -131,7 +131,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                <section class="content">
                     <div class="container-fluid">
                          <!-- Small boxes (Stat box) -->
-                         <?php $this->load->view('pages/admin/v_dashboard') ?>
+                         <?php $this->load->view($page) ?>
                     </div>
                </section>
 
