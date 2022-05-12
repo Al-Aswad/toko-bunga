@@ -46,13 +46,13 @@
                     </a>
                     <ul class="nav nav-treeview">
                          <li class="nav-item">
-                              <a href="./index.html" class="nav-link active px-1">
+                              <a href="<?= base_url('') . 'admin/category' ?>" class="nav-link active px-1">
                                    <i class="far fa-circle nav-icon"></i>
                                    <p>All</p>
                               </a>
                          </li>
                          <li class="nav-item">
-                              <a href="./index2.html" class="nav-link px-1">
+                              <a href="<?= base_url('') . 'admin/tambah-category' ?>" class="nav-link px-1">
                                    <i class="fa fa-plus nav-icon"></i>
                                    <p>Tambah Category</p>
                               </a>

@@ -98,7 +98,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
           <aside class="main-sidebar sidebar-dark-primary bg__gradient text-sm">
                <!-- Brand Logo -->
                <a href=" index3.html" class="py-4 brand-link text-sm border-0">
-                    <img src=" assets/admin/dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
+                    <img src="<?= base_url('') ?>assets/admin/dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
                     <span class="brand-text font-weight-light">AdminLTE 3</span>
                </a>
 

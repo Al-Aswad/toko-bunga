@@ -55,4 +55,10 @@ $route['translate_uri_dashes'] = FALSE;
 
 $route['login'] = 'Admin/authController';
 $route['admin'] = 'Admin/homeController';
+
 $route['admin/tambah-product'] = 'Admin/productController/create';
+
+
+$route['admin/category'] = 'Admin/categoryController';
+$route['admin/tambah-category'] = 'Admin/categoryController/create';
+$route['admin/category-store'] = 'Admin/categoryController/store';
